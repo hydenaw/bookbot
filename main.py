@@ -1,5 +1,5 @@
-from stats import word_counter
+from stats import character_count
 def main():
-    total_words = word_counter("/Users/hydena/workspace/github.com/hydenaw/bookbot/books/frankenstein.txt")
-    print(f"Found {total_words} total words")
+    characters = character_count("/Users/hydena/workspace/github.com/hydenaw/bookbot/books/frankenstein.txt")
+    print(characters)
 main()
